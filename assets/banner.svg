@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Dark Tech Gradient Background -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0a192f" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#4facfe" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.6"/>
+      <circle cx="40" cy="40" r="1" fill="#38bdf8" fill-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 800;
+      font-size: 46px;
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      letter-spacing: 0.5px;
+      fill: #94a3b8;
+    }
+    .tagline-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      fill: #38bdf8;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .pill {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 0.8; transform: scale(1.08); }
+    }
+    @keyframes floatNode {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes flowLine {
+      0% { stroke-dashoffset: 100; }
+      100% { stroke-dashoffset: 0; }
+    }
+    .node-pulse-1 { animation: pulse 3s infinite ease-in-out; }
+    .node-pulse-2 { animation: pulse 3.5s infinite ease-in-out 0.5s; }
+    .node-pulse-3 { animation: pulse 4s infinite ease-in-out 1s; }
+    .float-anim-1 { animation: floatNode 5s infinite ease-in-out; }
+    .float-anim-2 { animation: floatNode 6s infinite ease-in-out 1.5s; }
+    .float-anim-3 { animation: floatNode 5.5s infinite ease-in-out 0.8s; }
+    .data-stream { stroke-dasharray: 8, 8; animation: flowLine 2s linear infinite; }
+  </style>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="360" fill="url(#bgGrad)" rx="16" />
+  <rect width="1200" height="360" fill="url(#grid)" rx="16" />
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="150" cy="180" r="140" fill="#38bdf8" opacity="0.12" filter="url(#glow)" />
+  <circle cx="1020" cy="120" r="160" fill="#818cf8" opacity="0.12" filter="url(#glow)" />
+  <circle cx="650" cy="300" r="120" fill="#c084fc" opacity="0.08" filter="url(#glow)" />
+
+  <!-- Dynamic Mortgage Workflow Schematic (Right Side) -->
+  <g transform="translate(720, 40)" opacity="0.95">
+    <!-- Connecting Workflow Lines -->
+    <path d="M 60 70 L 170 70 L 280 70 L 390 70" stroke="#334155" stroke-width="2.5" />
+    <path d="M 170 70 L 170 180 L 280 180" stroke="#334155" stroke-width="2.5" />
+    <path d="M 280 70 L 390 180" stroke="#334155" stroke-width="2.5" />
+    <path d="M 280 180 L 390 180" stroke="#334155" stroke-width="2.5" />
+
+    <!-- Animated Data Flow Lines -->
+    <path d="M 60 70 L 170 70 L 280 70 L 390 70" stroke="#38bdf8" stroke-width="2.5" class="data-stream" />
+    <path d="M 170 70 L 170 180 L 280 180 L 390 180" stroke="#818cf8" stroke-width="2.5" class="data-stream" />
+
+    <!-- Workflow Node 1: Application / POS -->
+    <g class="float-anim-1" transform="translate(60, 70)">
+      <circle r="34" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+      <circle r="42" fill="none" stroke="#38bdf8" stroke-width="1.5" class="node-pulse-1" />
+      <!-- Document / Form Icon -->
+      <path d="M -10 -14 L 4 -14 L 12 -6 L 12 14 L -10 14 Z" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linejoin="round" />
+      <line x1="-5" y1="-4" x2="6" y2="-4" stroke="#38bdf8" stroke-width="2" />
+      <line x1="-5" y1="2" x2="6" y2="2" stroke="#38bdf8" stroke-width="2" />
+      <line x1="-5" y1="8" x2="2" y2="8" stroke="#38bdf8" stroke-width="2" />
+      <text x="0" y="52" text-anchor="middle" class="pill" fill="#94a3b8">1003 / POS</text>
+    </g>
+
+    <!-- Workflow Node 2: Automated Underwriting (AUS) -->
+    <g class="float-anim-2" transform="translate(170, 70)">
+      <circle r="34" fill="#0f172a" stroke="#818cf8" stroke-width="2" />
+      <circle r="42" fill="none" stroke="#818cf8" stroke-width="1.5" class="node-pulse-2" />
+      <!-- AI / Chip Icon -->
+      <rect x="-12" y="-12" width="24" height="24" rx="4" fill="none" stroke="#818cf8" stroke-width="2" />
+      <circle cx="0" cy="0" r="4" fill="#818cf8" />
+      <line x1="-16" y1="-4" x2="-12" y2="-4" stroke="#818cf8" stroke-width="2" />
+      <line x1="-16" y1="4" x2="-12" y2="4" stroke="#818cf8" stroke-width="2" />
+      <line x1="12" y1="-4" x2="16" y2="-4" stroke="#818cf8" stroke-width="2" />
+      <line x1="12" y1="4" x2="16" y2="4" stroke="#818cf8" stroke-width="2" />
+      <text x="0" y="52" text-anchor="middle" class="pill" fill="#94a3b8">Decision / AUS</text>
+    </g>
+
+    <!-- Workflow Node 3: Core LOS -->
+    <g class="float-anim-3" transform="translate(280, 70)">
+      <circle r="34" fill="#0f172a" stroke="#c084fc" stroke-width="2" />
+      <circle r="42" fill="none" stroke="#c084fc" stroke-width="1.5" class="node-pulse-3" />
+      <!-- Database / Server Icon -->
+      <ellipse cx="0" cy="-8" rx="12" ry="4" fill="none" stroke="#c084fc" stroke-width="2" />
+      <path d="M -12 -8 L -12 0 C -12 3 12 3 12 0 L 12 -8" fill="none" stroke="#c084fc" stroke-width="2" />
+      <path d="M -12 0 L -12 8 C -12 11 12 11 12 8 L 12 0" fill="none" stroke="#c084fc" stroke-width="2" />
+      <text x="0" y="52" text-anchor="middle" class="pill" fill="#94a3b8">Core LOS</text>
+    </g>
+
+    <!-- Workflow Node 4: Closing & Funding -->
+    <g class="float-anim-1" transform="translate(390, 70)">
+      <circle r="34" fill="#0f172a" stroke="#34d399" stroke-width="2" />
+      <!-- House / Funding Icon -->
+      <path d="M -12 2 L 0 -10 L 12 2 L 8 2 L 8 12 L -8 12 L -8 2 Z" fill="none" stroke="#34d399" stroke-width="2" stroke-linejoin="round" />
+      <text x="0" y="52" text-anchor="middle" class="pill" fill="#94a3b8">Funding &amp; Close</text>
+    </g>
+
+    <!-- Workflow Sub-Node 5: Verification & OCR -->
+    <g class="float-anim-2" transform="translate(280, 180)">
+      <circle r="26" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" />
+      <!-- Checkmark Shield -->
+      <path d="M -8 -8 L 0 -12 L 8 -8 L 8 0 C 8 6 0 10 0 10 C 0 10 -8 6 -8 0 Z" fill="none" stroke="#38bdf8" stroke-width="1.8" />
+      <path d="M -4 -1 L -1 2 L 4 -3" fill="none" stroke="#38bdf8" stroke-width="1.8" />
+      <text x="0" y="44" text-anchor="middle" class="pill" fill="#94a3b8">Verification &amp; OCR</text>
+    </g>
+
+    <!-- Workflow Sub-Node 6: E-Sign & Disclosures -->
+    <g class="float-anim-3" transform="translate(390, 180)">
+      <circle r="26" fill="#0f172a" stroke="#f43f5e" stroke-width="1.5" />
+      <!-- Pen / E-Sign -->
+      <path d="M -6 6 L 6 -6 L 8 -4 L -4 8 L -8 8 Z" fill="none" stroke="#f43f5e" stroke-width="1.8" />
+      <text x="0" y="44" text-anchor="middle" class="pill" fill="#94a3b8">E-Sign &amp; Docs</text>
+    </g>
+  </g>
+
+  <!-- Left Header Content -->
+  <g transform="translate(60, 65)">
+    <!-- Category Badge -->
+    <rect x="0" y="0" width="310" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+    <circle cx="14" cy="14" r="5" fill="#38bdf8">
+      <animate attributeName="opacity" values="1; 0.3; 1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="28" y="19" class="tagline-text">MORTGAGE LENDING ECOSYSTEM</text>
+
+    <!-- Title -->
+    <text x="0" y="85" class="title-text" fill="url(#accentGrad)">Awesome Mortgage</text>
+    <text x="0" y="140" class="title-text" fill="#ffffff">Origination 🏠⚡</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="185" class="subtitle-text">Curated SaaS Platforms, Open-Source LOS, AUS Rules,</text>
+    <text x="0" y="212" class="subtitle-text">Digital 1003 Portals &amp; Lending Workflow Automation</text>
+
+    <!-- Feature Pills -->
+    <g transform="translate(0, 240)">
+      <rect x="0" y="0" width="105" height="26" rx="6" fill="#1e293b" stroke="#334155" />
+      <text x="52" y="17" text-anchor="middle" class="pill" fill="#38bdf8">⚡ Cloud LOS</text>
+
+      <rect x="115" y="0" width="135" height="26" rx="6" fill="#1e293b" stroke="#334155" />
+      <text x="182" y="17" text-anchor="middle" class="pill" fill="#818cf8">🤖 AI Underwriting</text>
+
+      <rect x="260" y="0" width="125" height="26" rx="6" fill="#1e293b" stroke="#334155" />
+      <text x="322" y="17" text-anchor="middle" class="pill" fill="#c084fc">📄 1003 &amp; E-Sign</text>
+
+      <rect x="395" y="0" width="140" height="26" rx="6" fill="#1e293b" stroke="#334155" />
+      <text x="465" y="17" text-anchor="middle" class="pill" fill="#34d399">🔓 Open-Source LOS</text>
+    </g>
+  </g>
+</svg>
