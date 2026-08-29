@@ -52,101 +52,24 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-* **[Blend](https://blend.com/)**
-
-  Digital origination platform for banks, credit unions and mortgage providers supporting modern borrower applications, workflow automation and connected mortgage and consumer-lending experiences.
-
-
-
-* **[Roostify](https://www.roostify.com/)**
-
-  Digital mortgage platform focused on borrower experience, mortgage applications, document workflows, loan collaboration and digital mortgage origination.
-
-
-
-* **[Byte Software](https://www.bytesoftware.com/)**
-
-  Mortgage loan origination platform providing loan workflow management, borrower and broker connectivity, compliance support and configurable mortgage processes.
-
-
-
-* **[ICE Mortgage Technology Encompass](https://www.icemortgagetechnology.com/)**
-
-  Enterprise mortgage loan origination ecosystem supporting the mortgage workflow from application and processing through underwriting, closing and secondary-market operations.
-
-
-
-* **[LendingPad](https://www.lendingpad.com/)**
-
-  Cloud-based mortgage LOS designed for brokers, lenders and mortgage institutions, supporting collaborative loan origination, processing, underwriting and funding workflows.
-
-
-
-* **[SimpleNexus](https://www.simplenexus.com/)**
-
-  Digital mortgage and homeownership platform supporting borrower engagement, mobile applications, loan officer workflows and mortgage origination experiences.
-
-
-
-* **[Finastra Mortgagebot](https://www.finastra.com/)**
-
-  Mortgage lending and origination technology supporting banks and financial institutions with configurable lending workflows and digital mortgage capabilities.
-
-
-
-* **[Mortgage Cadence](https://www.mortgagecadence.com/)**
-
-  Enterprise mortgage technology platform supporting loan origination, digital mortgage workflows, loan processing and configurable lending operations.
-
-
-
-* **[TurnKey Lender](https://www.turnkey-lender.com/)**
-
-  Automated lending platform supporting configurable loan origination, underwriting automation, decisioning, servicing and analytics across lending products.
-
-
-
-* **[MeridianLink Mortgage](https://www.meridianlink.com/)**
-
-  Mortgage and consumer lending platform providing digital applications, workflow automation, loan processing and integrated lending infrastructure.
-
-
-
-* **[nCino Mortgage](https://www.ncino.com/)**
-
-  Cloud banking and lending platform providing workflow and automation capabilities across commercial, consumer and mortgage lending operations.
-
-
-
-* **[Floify](https://www.floify.com/)**
-
-  Mortgage point-of-sale and loan automation platform focused on borrower applications, document collection, workflow automation and mortgage collaboration.
-
-
-
-* **[Tavant](https://tavant.com/)**
-
-  Mortgage and financial technology platform offering digital mortgage, loan origination and workflow automation solutions for lenders and financial institutions.
-
-
-
-* **[Dark Matter Technologies](https://www.darkmattertech.com/)**
-
-  Mortgage technology provider offering platforms and infrastructure for loan origination, servicing and mortgage workflow operations.
-
-
-
-* **[Calque](https://www.calqueinc.com/)**
-
-  Digital mortgage platform focused on modernizing the borrower and lender experience through connected mortgage workflows.
-
-
-
-* **[ICE Mortgage Technology Consumer Connect](https://www.icemortgagetechnology.com/)**
-
-  Digital borrower-engagement and point-of-sale capabilities designed to connect mortgage consumers with lender origination workflows.
+| Product | Description | Starting Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Blend](https://blend.com/)** | Digital origination platform for banks, credit unions, and mortgage providers supporting modern borrower applications, workflow automation, and consumer lending. | Starts at ~$80/user/month for entry point-of-sale licenses; enterprise lending deployments start from ~$1,500/month (or ~$50–$100/loan). | 14-day guided proof-of-concept / sandbox trial with sample loan workflow access on sales approval (no free forever tier). |
+| **[Roostify](https://www.roostify.com/)** | Digital mortgage point-of-sale platform focused on borrower experience, mobile applications, document collection, and loan collaboration. | Starts at ~$1,000/month base platform fee for community lenders (or tiered at ~$15–$30/submitted application). | 14-day guided proof-of-concept environment for evaluating digital intake workflows (no free forever tier). |
+| **[Byte Software](https://www.bytesoftware.com/)** | Mortgage loan origination system (BytePro) providing loan workflow management, broker connectivity, compliance checks, and secondary marketing. | Starts at ~$100/user/month (standard single-user desktop) or ~$800/month base server deployment. | 30-day evaluation trial license with sample mortgage pipeline and test loan files (no free forever tier). |
+| **[ICE Mortgage Technology Encompass](https://www.icemortgagetechnology.com/)** | Enterprise loan origination system (LOS) covering application, automated underwriting, compliance, closing, and secondary market delivery. | Starts at ~$1,000/month base platform fee plus ~$40–$120/closed loan for mid-market lenders. | 30-day ICE Developer Connect sandbox access with up to 100 test loan API transactions (no free forever tier). |
+| **[LendingPad](https://www.lendingpad.com/)** | Cloud-based mortgage LOS designed for brokers, lenders, and institutions supporting real-time collaborative processing and underwriting. | Broker Edition starts at $55/user/month; Lender Edition starts at ~$100/closed loan. | 14-day guided interactive sandbox demo with preloaded pipeline and test borrower records (no free forever tier). |
+| **[SimpleNexus](https://www.simplenexus.com/)** | Mobile-first digital mortgage POS platform (by nCino) connecting borrowers, loan officers, and realtors across the loan lifecycle. | Starts at ~$150/user/month (or ~$1,200/month base subscription for small lending teams). | 14-day guided test portal with pre-configured borrower application flow (no free forever tier). |
+| **[Finastra Mortgagebot](https://www.finastra.com/)** | Point-of-sale and loan origination technology providing end-to-end digital lending workflows for banks and credit unions. | Starts at ~$1,500/month base subscription for community financial institutions. | 30-day API evaluation sandbox on Finastra FusionFabric.cloud with mock lending endpoints (no free forever tier). |
+| **[Mortgage Cadence](https://www.mortgagecadence.com/)** | Enterprise mortgage platform (MCP) supporting configurable loan origination, document management, and closing operations. | MCP Essentials starts at ~$1,200/month; Enterprise tier priced by annual closed loan volume. | 30-day guided evaluation sandbox instance with prebuilt workflow templates (no free forever tier). |
+| **[TurnKey Lender](https://www.turnkey-lender.com/)** | Automated lending platform supporting AI-powered loan origination, decisioning, underwriting, servicing, and collections. | Standard tier starts at $500/month (or volume tier starting at ~$10/originated loan). | 14-day free trial with full sandbox environment access and up to 50 test loan applications. |
+| **[MeridianLink Mortgage](https://www.meridianlink.com/)** | Digital lending and mortgage origination platform providing automated underwriting, compliance verification, and closing workflows. | Starts at ~$500/month base platform subscription plus per-application transaction fees. | 30-day developer sandbox environment for integration testing and API validation (no free forever tier). |
+| **[nCino Mortgage](https://www.ncino.com/)** | Cloud banking and mortgage origination platform providing automated workflow management across consumer and commercial lending. | Starts at ~$2,000/month base enterprise package for financial institutions. | 14-day sales-guided Proof of Value (PoV) sandbox instance (no free forever tier). |
+| **[Floify](https://www.floify.com/)** | Mortgage POS and automation platform for borrower portals, 1003 applications, automatic document requests, and milestone tracking. | Starter/Individual plan starts at $70/user/month (Team plan starts at $175/month). | 14-day free trial with unlimited test loan creation and full document portal capabilities. |
+| **[Tavant](https://tavant.com/)** | AI-powered Touchless Lending platform providing modular digital origination, document classification, and automated underwriting. | Modular lending services start at ~$2,500/month (or ~$25/processed document package). | 30-day pilot API sandbox with up to 100 automated document extraction runs (no free forever tier). |
+| **[Dark Matter Technologies](https://www.darkmattertech.com/)** | Empower LOS platform delivering high-performance origination, integrated pricing engine (PPE), and secondary marketing capabilities. | Bundled LOS packages start at ~$2,000/month base tier (or volume pricing starting at ~$65/closed loan). | 30-day guided test sandbox environment for qualified mortgage lenders (no free forever tier). |
+| **[Calque](https://www.calqueinc.com/)** | Mortgage platform providing "Buy Before You Sell" solutions and guaranteed backup contracts for home purchase workflows. | Free lender partner onboarding ($0/month subscription); borrower fee is $2,000 admin fee + 1% Purchase Price Guarantee upon home sale. | Free forever partner access with zero upfront fees or loan limits; transaction fees apply strictly upon closed transactions. |
+| **[ICE Mortgage Technology Consumer Connect](https://www.icemortgagetechnology.com/)** | Digital borrower POS and engagement platform connecting consumer applications directly into Encompass origination pipelines. | Starts at ~$300/month add-on base fee (or ~$10–$20/completed digital application). | 30-day test environment bundled within ICE Developer Connect sandbox (no free forever tier). |
 
 
 
